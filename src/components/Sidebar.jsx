@@ -11,13 +11,13 @@ export default function Sidebar() {
   return (
     <div className="w-64 h-screen bg-green-900 text-white p-5 flex flex-col">
 
-      {/* Logo */}
+     
       <h2 className="text-xl font-bold mb-10">Siohioma</h2>
 
-      {/* Menu */}
+    
       <div className="space-y-6">
 
-        {/* Main */}
+      
         <div>
           <p className="text-sm text-green-300 mb-2">MAIN</p>
           <div className="space-y-3">
@@ -45,7 +45,7 @@ export default function Sidebar() {
           </div>
         </div>
 
-        {/* Settings */}
+     
         <div>
           <p className="text-sm text-green-300 mb-2">SETTINGS</p>
           <div className="space-y-3">
