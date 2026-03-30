@@ -20,10 +20,10 @@ export default function RevenueChart() {
   return (
     <div className="bg-white p-5 rounded-2xl shadow">
       
-      {/* Title */}
+    
       <h3 className="font-semibold mb-4">Revenue</h3>
 
-      {/* Chart */}
+      
       <ResponsiveContainer width="100%" height={250}>
         <BarChart data={data}>
           <XAxis dataKey="name" />
