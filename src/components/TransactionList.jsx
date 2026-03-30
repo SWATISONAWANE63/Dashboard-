@@ -31,7 +31,7 @@ export default function TransactionList() {
           key={index}
           className="flex items-center justify-between py-3 border-b last:border-none"
         >
-          {/* Left */}
+       
           <div className="flex items-center gap-3">
             <div className="bg-gray-100 p-3 rounded-lg text-green-600">
               {item.icon}
@@ -42,7 +42,7 @@ export default function TransactionList() {
             </div>
           </div>
 
-          {/* Status */}
+         
           <span
             className={`text-sm font-medium ${
               item.status === "Completed"
