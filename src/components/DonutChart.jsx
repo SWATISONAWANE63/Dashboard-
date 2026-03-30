@@ -14,7 +14,7 @@ export default function DonutChart() {
       
       <h3 className="font-semibold mb-4">Total View Performance</h3>
 
-      {/* Chart Wrapper */}
+    
       <div className="relative w-full h-[250px] flex items-center justify-center">
         
         <ResponsiveContainer width="100%" height="100%">
@@ -34,7 +34,7 @@ export default function DonutChart() {
           </PieChart>
         </ResponsiveContainer>
 
-        {/* Center Text (Perfectly Centered) */}
+      
         <div className="absolute text-center">
           <p className="text-gray-500 text-sm">Total Count</p>
           <h2 className="text-2xl font-bold">565K</h2>
